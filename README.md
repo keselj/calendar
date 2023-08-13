@@ -1,7 +1,7 @@
 # Calendar App
 This is a simple calendar app that allows you to view and manage events for different days.
 
-![Open Display](screenshots/open display.PNG)
+![Open Display](screenshots/open-display.PNG)
 
 ## Features
 
@@ -11,7 +11,7 @@ This is a simple calendar app that allows you to view and manage events for diff
 
 ## Usage
 
-![Adding Event](screenshots/adding event.PNG)
+![Adding Event](screenshots/adding-event.PNG)
 
 
 The calendar displays the current month by default.
@@ -24,4 +24,4 @@ If an event exists for the selected date, the event title will be displayed, and
 
 If no event exists for the selected date, you can add a new event by entering the event title and clicking "Save."
 
-![Deleting Event](screenshots/deleting event.PNG)
+![Deleting Event](screenshots/deleting-event.PNG)
