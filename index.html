@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Container for almost entirely app-->
+  <div id="container">
+    <div id="header">
+      <div id="monthDisplay"></div>
+      <div>
+        <button id="backButton">Back</button>
+        <button id="nextButton">Next</button>
+      </div>
+    </div>
+    <!-- this is hardcoded coz weekdays aren't changing -->
+    <div id="weekdays">
+      <div id="sunday">Sunday</div>
+      <div id="monday">Monday</div>
+      <div id="tuesday">Tuesday</div>
+      <div id="wednesday">Wednesday</div>
+      <div id="thursday">Thursday</div>
+      <div id="friday">Friday</div>
+      <div id="saturday">Saturday</div>
+    </div>
+
+    <div id="calendar"></div>
+  </div>
+
+  <div id="newEventModal">
+    <h2>New Event</h2>
+
+    <input id="eventTitleInput" placeholder="Event Title" />
+
+    <button id="saveButton">Save</button>
+    <button id="cancelButton">Cancel</button>
+  </div>
+
+  <div id="deleteEventModal">
+    <h2>Event</h2>
+
+    <p id="eventText"></p>
+
+    <button id="deleteButton">Delete</button>
+    <button id="closeButton">Close</button>
+  </div>
+
+  <div id="modalBackDrop"></div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
