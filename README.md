@@ -1,5 +1,5 @@
 # Calendar App
-
+![Game Start Screenshot](screenshots/open display.PNG)
 This is a simple calendar app that allows you to view and manage events for different days.
 
 ## Features
